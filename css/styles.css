@@ -93,6 +93,8 @@ ul {
     display:grid;
     gap:20px;
     grid-auto-rows: min-content;
+    font-size:18px;
+    font-weight: 600;
 }
 
 
