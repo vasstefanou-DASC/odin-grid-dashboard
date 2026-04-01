@@ -53,6 +53,45 @@ h1, h2, h3, h4, h5, h6 {
 
 header{
     background-color: yellow;
+    color: black;
+    display:grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+header div {
+  padding:15px 30px;
+  display:flex;
+  align-items: center;
+  gap:15px;
+}
+
+input {
+  height:30px;
+  width: 80%;
+  border-radius: 10px;
+  border:none;
+}
+
+.topright, .botright {
+  justify-content: center;
+}
+
+button {
+  width:90px;
+  border-radius: 10px;
+  border:none;
+  padding:6px;
+}
+
+.profile {
+  height: 35px;
+  width:auto;
+}
+
+.profile2 {
+  height: 50px;
+  width: auto;
 }
 
 .sidebar {
